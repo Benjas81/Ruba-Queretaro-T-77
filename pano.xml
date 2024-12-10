@@ -1,236 +1,236 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour start="node1" appversion="6.1.2" apprev="17873">
   <panorama id="node1">
-    <input levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" width="1250" height="1250" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" predecode="0" width="1250" height="1250"/>
-      <level preload="0" predecode="0" width="625" height="625"/>
-      <level preload="1" predecode="1" width="312" height="312"/>
+    <input leveltilesize="510" height="1250" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" overlap="1" width="1250" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1250" width="1250" preload="0" predecode="0"/>
+      <level height="625" width="625" preload="0" predecode="0"/>
+      <level height="312" width="312" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="0" fov="75" projection="4" tilt="0"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" fovfisheye="360" fov="120" tilt="90" fovstereographic="270" scaletofit="1"/>
+    <view pannorth="0" fovmode="0">
+      <start fov="75" tilt="0" projection="4" pan="0"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata datetime="03/12/2024 02:13 p.m." author="" copyright="" title="Sala" info="" tags="T-77 360|iNTERIOR" nodeid="node1" comment="" source="" longitude="" customnodeid="" description="" latitude="">
-      <mapcoords y="-1.35406" x="0.502625" y_floorplan_percent="82.1667" x_floorplan_percent="61" mapid="FloorPlan01"/>
+    <userdata datetime="03/12/2024 02:13 p.m." author="" info="" nodeid="node1" customnodeid="" source="" longitude="" copyright="" comment="" latitude="" title="Sala" description="" tags="T-77 360|iNTERIOR">
+      <mapcoords x_floorplan_percent="61" y="-1.35406" y_floorplan_percent="82.1667" mapid="FloorPlan01" x="0.502625"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textcolor="0x000000" bordercolor="0x000000" borderradius="1" backgroundcolor="0xffffff" enabled="1" border="1" width="180" height="20" background="1" backgroundalpha="1" wordwrap="1" textalpha="1" borderalpha="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
-      <hotspot id="Cuarto de Lavado" pan="-325.57" title="Cuarto de Lavado" target="" url="{node3}" skinid="ht_node" tilt="-8.73" description=""/>
-      <hotspot id="Baño" pan="-340.63" title="Baño" target="" url="{node4}" skinid="ht_node" tilt="-7.2" description=""/>
-      <hotspot id="Cocina" pan="-346.13" title="Cocina" target="" url="{node2}" skinid="ht_node" tilt="-15.56" description=""/>
-      <hotspot id="Recamara Ppal" pan="-346.12" title="Recamara Ppal" target="" url="{node5}" skinid="ht_node" tilt="-6.46" description=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundcolor="0xffffff" wordwrap="1" height="20" bordercolor="0x000000" border="1" enabled="1" background="1" borderradius="1" backgroundalpha="1" width="180" textcolor="0x000000" textalpha="1" borderalpha="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot skinid="ht_node" target="" tilt="-8.73" url="{node3}" id="Cuarto de Lavado" pan="-325.57" title="Cuarto de Lavado" description=""/>
+      <hotspot skinid="ht_node" target="" tilt="-7.2" url="{node4}" id="Baño" pan="-340.63" title="Baño" description=""/>
+      <hotspot skinid="ht_node" target="" tilt="-15.56" url="{node2}" id="Cocina" pan="-346.13" title="Cocina" description=""/>
+      <hotspot skinid="ht_node" target="" tilt="-6.46" url="{node5}" id="Recamara Ppal" pan="-346.12" title="Recamara Ppal" description=""/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" zoomin="0" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="2" zoomspeed="2" zoomout="0" blendcolor="0x000000" softedge="0"/>
+    <transition zoomin="0" zoomfov="20" zoomout="0" zoomoutpause="1" softedge="0" zoomspeed="2" enabled="1" type="crossdissolve" blendtime="2" blendcolor="0x000000"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control lockedmouse="0" lockedwheel="0" contextprojections="0" invertcontrol="1" sensitivity="8" lockedkeyboardzoom="0" lockedkeyboard="0" rubberband="0" dblclickfullscreen="0" simulatemass="1" invertwheel="0" contextfullscreen="1" hideabout="0" speedwheel="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" invertcontrol="1" sensitivity="8" lockedkeyboardzoom="0" dblclickfullscreen="0" speedwheel="1" contextprojections="0" invertwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" rubberband="0" lockedmouse="0" lockedwheel="0"/>
   </panorama>
   <panorama id="node2">
-    <input levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" width="1250" height="1250" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" predecode="0" width="1250" height="1250"/>
-      <level preload="0" predecode="0" width="625" height="625"/>
-      <level preload="1" predecode="1" width="312" height="312"/>
+    <input leveltilesize="510" height="1250" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" overlap="1" width="1250" levelbias="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1250" width="1250" preload="0" predecode="0"/>
+      <level height="625" width="625" preload="0" predecode="0"/>
+      <level height="312" width="312" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="-112.08" fov="75" projection="4" tilt="-2.81"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" fovfisheye="360" fov="120" tilt="90" fovstereographic="270" scaletofit="1"/>
+    <view pannorth="0" fovmode="0">
+      <start fov="75" tilt="-2.81" projection="4" pan="-112.08"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata datetime="03/12/2024 07:20 p.m." author="" copyright="" title="Cocina" info="" tags="T-77 360|iNTERIOR" nodeid="node2" comment="" source="" longitude="" customnodeid="" description="" latitude="">
-      <mapcoords y="-0.997009" x="0.376282" y_floorplan_percent="60.5" x_floorplan_percent="45.6667" mapid="FloorPlan01"/>
+    <userdata datetime="03/12/2024 07:20 p.m." author="" info="" nodeid="node2" customnodeid="" source="" longitude="" copyright="" comment="" latitude="" title="Cocina" description="" tags="T-77 360|iNTERIOR">
+      <mapcoords x_floorplan_percent="45.6667" y="-0.997009" y_floorplan_percent="60.5" mapid="FloorPlan01" x="0.376282"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textcolor="0x000000" bordercolor="0x000000" borderradius="1" backgroundcolor="0xffffff" enabled="1" border="1" width="180" height="20" background="1" backgroundalpha="1" wordwrap="1" textalpha="1" borderalpha="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
-      <hotspot id="Sala" pan="-156.81" title="Sala" target="" url="{node1}" skinid="ht_node" tilt="-19.95" description=""/>
-      <hotspot id="Recamara 02" pan="-10.25" title="Recamara 02" target="" url="{node6}" skinid="ht_node" tilt="-13.14" description=""/>
-      <hotspot id="Recamara Ppal" pan="-360" title="Recamara Ppal" target="" url="{node5}" skinid="ht_node" tilt="-11.72" description=""/>
-      <hotspot id="Baño" pan="-347.4" title="Baño" target="" url="{node4}" skinid="ht_node" tilt="-13.92" description=""/>
-      <hotspot id="Cuarto de Lavado" pan="-270.4" title="Cuarto de Lavado" target="" url="{node3}" skinid="ht_node" tilt="-31.95" description=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundcolor="0xffffff" wordwrap="1" height="20" bordercolor="0x000000" border="1" enabled="1" background="1" borderradius="1" backgroundalpha="1" width="180" textcolor="0x000000" textalpha="1" borderalpha="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot skinid="ht_node" target="" tilt="-19.95" url="{node1}" id="Sala" pan="-156.81" title="Sala" description=""/>
+      <hotspot skinid="ht_node" target="" tilt="-13.14" url="{node6}" id="Recamara 02" pan="-10.25" title="Recamara 02" description=""/>
+      <hotspot skinid="ht_node" target="" tilt="-11.72" url="{node5}" id="Recamara Ppal" pan="-360" title="Recamara Ppal" description=""/>
+      <hotspot skinid="ht_node" target="" tilt="-13.92" url="{node4}" id="Baño" pan="-347.4" title="Baño" description=""/>
+      <hotspot skinid="ht_node" target="" tilt="-31.95" url="{node3}" id="Cuarto de Lavado" pan="-270.4" title="Cuarto de Lavado" description=""/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" zoomin="0" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="2" zoomspeed="2" zoomout="0" blendcolor="0x000000" softedge="0"/>
+    <transition zoomin="0" zoomfov="20" zoomout="0" zoomoutpause="1" softedge="0" zoomspeed="2" enabled="1" type="crossdissolve" blendtime="2" blendcolor="0x000000"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control lockedmouse="0" lockedwheel="0" contextprojections="0" invertcontrol="1" sensitivity="8" lockedkeyboardzoom="0" lockedkeyboard="0" rubberband="0" dblclickfullscreen="0" simulatemass="1" invertwheel="0" contextfullscreen="1" hideabout="0" speedwheel="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" invertcontrol="1" sensitivity="8" lockedkeyboardzoom="0" dblclickfullscreen="0" speedwheel="1" contextprojections="0" invertwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" rubberband="0" lockedmouse="0" lockedwheel="0"/>
   </panorama>
   <panorama id="node3">
-    <input levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" width="1500" height="1500" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" predecode="0" width="1500" height="1500"/>
-      <level preload="0" predecode="0" width="750" height="750"/>
-      <level preload="1" predecode="1" width="375" height="375"/>
+    <input leveltilesize="510" height="1250" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" overlap="1" width="1250" levelbias="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1250" width="1250" preload="0" predecode="0"/>
+      <level height="625" width="625" preload="0" predecode="0"/>
+      <level height="312" width="312" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="69.11" fov="75" projection="4" tilt="-3.38"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" fovfisheye="360" fov="120" tilt="90" fovstereographic="270" scaletofit="1"/>
+    <view pannorth="0" fovmode="0">
+      <start fov="75" tilt="-15.18" projection="4" pan="68.34"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata datetime="03/12/2024 08:12 p.m." author="" copyright="" title="Cuarto de Lavado" info="" tags="T-77 360|iNTERIOR" nodeid="node3" comment="" source="" longitude="" customnodeid="" description="" latitude="">
-      <mapcoords y="-0.991516" x="0.20874" y_floorplan_percent="60.1667" x_floorplan_percent="25.3333" mapid="FloorPlan01"/>
+    <userdata datetime="03/12/2024 08:12 p.m." author="" info="" nodeid="node3" customnodeid="" source="" longitude="" copyright="" comment="" latitude="" title="Cuarto de Lavado" description="" tags="T-77 360|iNTERIOR">
+      <mapcoords x_floorplan_percent="25.3333" y="-0.991516" y_floorplan_percent="60.1667" mapid="FloorPlan01" x="0.20874"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textcolor="0x000000" bordercolor="0x000000" borderradius="1" backgroundcolor="0xffffff" enabled="1" border="1" width="180" height="20" background="1" backgroundalpha="1" wordwrap="1" textalpha="1" borderalpha="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
-      <hotspot id="Cocina" pan="-97.93" title="Cocina" target="" url="{node2}" skinid="ht_node" tilt="-22.32" description=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundcolor="0xffffff" wordwrap="1" height="20" bordercolor="0x000000" border="1" enabled="1" background="1" borderradius="1" backgroundalpha="1" width="180" textcolor="0x000000" textalpha="1" borderalpha="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot skinid="ht_node" target="" tilt="-22.32" url="{node2}" id="Cocina" pan="-97.93" title="Cocina" description=""/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" zoomin="0" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="2" zoomspeed="2" zoomout="0" blendcolor="0x000000" softedge="0"/>
+    <transition zoomin="0" zoomfov="20" zoomout="0" zoomoutpause="1" softedge="0" zoomspeed="2" enabled="1" type="crossdissolve" blendtime="2" blendcolor="0x000000"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control lockedmouse="0" lockedwheel="0" contextprojections="0" invertcontrol="1" sensitivity="8" lockedkeyboardzoom="0" lockedkeyboard="0" rubberband="0" dblclickfullscreen="0" simulatemass="1" invertwheel="0" contextfullscreen="1" hideabout="0" speedwheel="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" invertcontrol="1" sensitivity="8" lockedkeyboardzoom="0" dblclickfullscreen="0" speedwheel="1" contextprojections="0" invertwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" rubberband="0" lockedmouse="0" lockedwheel="0"/>
   </panorama>
   <panorama id="node4">
-    <input levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" width="1250" height="1250" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" predecode="0" width="1250" height="1250"/>
-      <level preload="0" predecode="0" width="625" height="625"/>
-      <level preload="1" predecode="1" width="312" height="312"/>
+    <input leveltilesize="510" height="1250" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" overlap="1" width="1250" levelbias="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1250" width="1250" preload="0" predecode="0"/>
+      <level height="625" width="625" preload="0" predecode="0"/>
+      <level height="312" width="312" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="-0.87" fov="75" projection="4" tilt="-4.14"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" fovfisheye="360" fov="120" tilt="90" fovstereographic="270" scaletofit="1"/>
+    <view pannorth="0" fovmode="0">
+      <start fov="75" tilt="-4.14" projection="4" pan="-0.87"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata datetime="03/12/2024 08:51 p.m." author="" copyright="" title="Baño" info="" tags="T-77 360|iNTERIOR" nodeid="node4" comment="" source="" longitude="" customnodeid="" description="" latitude="">
-      <mapcoords y="-0.804749" x="0.236206" y_floorplan_percent="48.8333" x_floorplan_percent="28.6667" mapid="FloorPlan01"/>
+    <userdata datetime="03/12/2024 08:51 p.m." author="" info="" nodeid="node4" customnodeid="" source="" longitude="" copyright="" comment="" latitude="" title="Baño" description="" tags="T-77 360|iNTERIOR">
+      <mapcoords x_floorplan_percent="28.6667" y="-0.804749" y_floorplan_percent="48.8333" mapid="FloorPlan01" x="0.236206"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textcolor="0x000000" bordercolor="0x000000" borderradius="1" backgroundcolor="0xffffff" enabled="1" border="1" width="180" height="20" background="1" backgroundalpha="1" wordwrap="1" textalpha="1" borderalpha="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
-      <hotspot id="Cocina" pan="-92.13" title="Cocina" target="" url="{node2}" skinid="ht_node" tilt="-27.51" description=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundcolor="0xffffff" wordwrap="1" height="20" bordercolor="0x000000" border="1" enabled="1" background="1" borderradius="1" backgroundalpha="1" width="180" textcolor="0x000000" textalpha="1" borderalpha="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot skinid="ht_node" target="" tilt="-27.51" url="{node2}" id="Cocina" pan="-92.13" title="Cocina" description=""/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" zoomin="0" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="2" zoomspeed="2" zoomout="0" blendcolor="0x000000" softedge="0"/>
+    <transition zoomin="0" zoomfov="20" zoomout="0" zoomoutpause="1" softedge="0" zoomspeed="2" enabled="1" type="crossdissolve" blendtime="2" blendcolor="0x000000"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control lockedmouse="0" lockedwheel="0" contextprojections="0" invertcontrol="1" sensitivity="8" lockedkeyboardzoom="0" lockedkeyboard="0" rubberband="0" dblclickfullscreen="0" simulatemass="1" invertwheel="0" contextfullscreen="1" hideabout="0" speedwheel="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" invertcontrol="1" sensitivity="8" lockedkeyboardzoom="0" dblclickfullscreen="0" speedwheel="1" contextprojections="0" invertwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" rubberband="0" lockedmouse="0" lockedwheel="0"/>
   </panorama>
   <panorama id="node5">
-    <input levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" width="1250" height="1250" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" predecode="0" width="1250" height="1250"/>
-      <level preload="0" predecode="0" width="625" height="625"/>
-      <level preload="1" predecode="1" width="312" height="312"/>
+    <input leveltilesize="510" height="1250" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" overlap="1" width="1250" levelbias="0.400" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1250" width="1250" preload="0" predecode="0"/>
+      <level height="625" width="625" preload="0" predecode="0"/>
+      <level height="312" width="312" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="89.27" fov="75" projection="4" tilt="-6.7"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" fovfisheye="360" fov="120" tilt="90" fovstereographic="270" scaletofit="1"/>
+    <view pannorth="0" fovmode="0">
+      <start fov="75" tilt="-6.7" projection="4" pan="89.27"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata datetime="04/12/2024 08:01 p.m." author="" copyright="" title="Recamara Ppal" info="" tags="T-77 360|iNTERIOR" nodeid="node5" comment="" source="" longitude="" customnodeid="" description="" latitude="">
-      <mapcoords y="-0.527344" x="0.354309" y_floorplan_percent="32" x_floorplan_percent="43" mapid="FloorPlan01"/>
+    <userdata datetime="04/12/2024 08:01 p.m." author="" info="" nodeid="node5" customnodeid="" source="" longitude="" copyright="" comment="" latitude="" title="Recamara Ppal" description="" tags="T-77 360|iNTERIOR">
+      <mapcoords x_floorplan_percent="43" y="-0.527344" y_floorplan_percent="32" mapid="FloorPlan01" x="0.354309"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textcolor="0x000000" bordercolor="0x000000" borderradius="1" backgroundcolor="0xffffff" enabled="1" border="1" width="180" height="20" background="1" backgroundalpha="1" wordwrap="1" textalpha="1" borderalpha="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
-      <hotspot id="Baño Recamara Ppal" pan="-9.46" title="Baño Ppal" target="" url="{node7}" skinid="ht_node" tilt="-14.95" description=""/>
-      <hotspot id="Patio" pan="-36.53" title="Patio" target="" url="{node8}" skinid="ht_node" tilt="-20.28" description=""/>
-      <hotspot id="Cocina" pan="-162.72" title="Cocina" target="" url="{node2}" skinid="ht_node" tilt="-22.42" description=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundcolor="0xffffff" wordwrap="1" height="20" bordercolor="0x000000" border="1" enabled="1" background="1" borderradius="1" backgroundalpha="1" width="180" textcolor="0x000000" textalpha="1" borderalpha="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot skinid="ht_node" target="" tilt="-14.95" url="{node7}" id="Baño Recamara Ppal" pan="-9.46" title="Baño Ppal" description=""/>
+      <hotspot skinid="ht_node" target="" tilt="-20.28" url="{node8}" id="Patio" pan="-36.53" title="Patio" description=""/>
+      <hotspot skinid="ht_node" target="" tilt="-22.42" url="{node2}" id="Cocina" pan="-162.72" title="Cocina" description=""/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" zoomin="0" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="2" zoomspeed="2" zoomout="0" blendcolor="0x000000" softedge="0"/>
+    <transition zoomin="0" zoomfov="20" zoomout="0" zoomoutpause="1" softedge="0" zoomspeed="2" enabled="1" type="crossdissolve" blendtime="2" blendcolor="0x000000"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control lockedmouse="0" lockedwheel="0" contextprojections="0" invertcontrol="1" sensitivity="8" lockedkeyboardzoom="0" lockedkeyboard="0" rubberband="0" dblclickfullscreen="0" simulatemass="1" invertwheel="0" contextfullscreen="1" hideabout="0" speedwheel="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" invertcontrol="1" sensitivity="8" lockedkeyboardzoom="0" dblclickfullscreen="0" speedwheel="1" contextprojections="0" invertwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" rubberband="0" lockedmouse="0" lockedwheel="0"/>
   </panorama>
   <panorama id="node6">
-    <input levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" width="1250" height="1250" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" predecode="0" width="1250" height="1250"/>
-      <level preload="0" predecode="0" width="625" height="625"/>
-      <level preload="1" predecode="1" width="312" height="312"/>
+    <input leveltilesize="510" height="1250" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" overlap="1" width="1250" levelbias="0.400" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1250" width="1250" preload="0" predecode="0"/>
+      <level height="625" width="625" preload="0" predecode="0"/>
+      <level height="312" width="312" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="-89.66" fov="75" projection="4" tilt="-1.59"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" fovfisheye="360" fov="120" tilt="90" fovstereographic="270" scaletofit="1"/>
+    <view pannorth="0" fovmode="0">
+      <start fov="75" tilt="-1.59" projection="4" pan="-89.66"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata datetime="04/12/2024 09:12 p.m." author="" copyright="" title="Recamara 02" info="" tags="T-77 360|iNTERIOR" nodeid="node6" comment="" source="" longitude="" customnodeid="" description="" latitude="">
-      <mapcoords y="-0.604248" x="0.521851" y_floorplan_percent="36.6667" x_floorplan_percent="63.3333" mapid="FloorPlan01"/>
+    <userdata datetime="04/12/2024 09:12 p.m." author="" info="" nodeid="node6" customnodeid="" source="" longitude="" copyright="" comment="" latitude="" title="Recamara 02" description="" tags="T-77 360|iNTERIOR">
+      <mapcoords x_floorplan_percent="63.3333" y="-0.604248" y_floorplan_percent="36.6667" mapid="FloorPlan01" x="0.521851"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textcolor="0x000000" bordercolor="0x000000" borderradius="1" backgroundcolor="0xffffff" enabled="1" border="1" width="180" height="20" background="1" backgroundalpha="1" wordwrap="1" textalpha="1" borderalpha="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
-      <hotspot id="Patio" pan="-12.43" title="Patio" target="" url="{node8}" skinid="ht_node" tilt="-24.65" description=""/>
-      <hotspot id="Cocina" pan="-218.11" title="Cocina" target="" url="{node2}" skinid="ht_node" tilt="-22.81" description=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundcolor="0xffffff" wordwrap="1" height="20" bordercolor="0x000000" border="1" enabled="1" background="1" borderradius="1" backgroundalpha="1" width="180" textcolor="0x000000" textalpha="1" borderalpha="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot skinid="ht_node" target="" tilt="-24.65" url="{node8}" id="Patio" pan="-12.43" title="Patio" description=""/>
+      <hotspot skinid="ht_node" target="" tilt="-22.81" url="{node2}" id="Cocina" pan="-218.11" title="Cocina" description=""/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" zoomin="0" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="2" zoomspeed="2" zoomout="0" blendcolor="0x000000" softedge="0"/>
+    <transition zoomin="0" zoomfov="20" zoomout="0" zoomoutpause="1" softedge="0" zoomspeed="2" enabled="1" type="crossdissolve" blendtime="2" blendcolor="0x000000"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control lockedmouse="0" lockedwheel="0" contextprojections="0" invertcontrol="1" sensitivity="8" lockedkeyboardzoom="0" lockedkeyboard="0" rubberband="0" dblclickfullscreen="0" simulatemass="1" invertwheel="0" contextfullscreen="1" hideabout="0" speedwheel="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" invertcontrol="1" sensitivity="8" lockedkeyboardzoom="0" dblclickfullscreen="0" speedwheel="1" contextprojections="0" invertwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" rubberband="0" lockedmouse="0" lockedwheel="0"/>
   </panorama>
   <panorama id="node7">
-    <input levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" width="1250" height="1250" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" predecode="0" width="1250" height="1250"/>
-      <level preload="0" predecode="0" width="625" height="625"/>
-      <level preload="1" predecode="1" width="312" height="312"/>
+    <input leveltilesize="510" height="1250" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" overlap="1" width="1250" levelbias="0.400" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1250" width="1250" preload="0" predecode="0"/>
+      <level height="625" width="625" preload="0" predecode="0"/>
+      <level height="312" width="312" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="-34.5" fov="75" projection="4" tilt="-8.78"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" fovfisheye="360" fov="120" tilt="90" fovstereographic="270" scaletofit="1"/>
+    <view pannorth="0" fovmode="0">
+      <start fov="75" tilt="-8.78" projection="4" pan="-34.5"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata datetime="04/12/2024 02:02 p.m." author="" copyright="" title="Baño Ppal" info="" tags="T-77 360|iNTERIOR" nodeid="node7" comment="" source="" longitude="" customnodeid="" description="" latitude="">
-      <mapcoords y="-0.192261" x="0.299377" y_floorplan_percent="11.6667" x_floorplan_percent="36.3333" mapid="FloorPlan01"/>
+    <userdata datetime="04/12/2024 02:02 p.m." author="" info="" nodeid="node7" customnodeid="" source="" longitude="" copyright="" comment="" latitude="" title="Baño Ppal" description="" tags="T-77 360|iNTERIOR">
+      <mapcoords x_floorplan_percent="36.3333" y="-0.192261" y_floorplan_percent="11.6667" mapid="FloorPlan01" x="0.299377"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textcolor="0x000000" bordercolor="0x000000" borderradius="1" backgroundcolor="0xffffff" enabled="1" border="1" width="180" height="20" background="1" backgroundalpha="1" wordwrap="1" textalpha="1" borderalpha="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
-      <hotspot id="Recamara Ppal" pan="-113.68" title="Recamara Ppal" target="" url="{node5}" skinid="ht_node" tilt="-26.02" description=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundcolor="0xffffff" wordwrap="1" height="20" bordercolor="0x000000" border="1" enabled="1" background="1" borderradius="1" backgroundalpha="1" width="180" textcolor="0x000000" textalpha="1" borderalpha="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot skinid="ht_node" target="" tilt="-26.02" url="{node5}" id="Recamara Ppal" pan="-113.68" title="Recamara Ppal" description=""/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" zoomin="0" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="2" zoomspeed="2" zoomout="0" blendcolor="0x000000" softedge="0"/>
+    <transition zoomin="0" zoomfov="20" zoomout="0" zoomoutpause="1" softedge="0" zoomspeed="2" enabled="1" type="crossdissolve" blendtime="2" blendcolor="0x000000"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control lockedmouse="0" lockedwheel="0" contextprojections="0" invertcontrol="1" sensitivity="8" lockedkeyboardzoom="0" lockedkeyboard="0" rubberband="0" dblclickfullscreen="0" simulatemass="1" invertwheel="0" contextfullscreen="1" hideabout="0" speedwheel="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" invertcontrol="1" sensitivity="8" lockedkeyboardzoom="0" dblclickfullscreen="0" speedwheel="1" contextprojections="0" invertwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" rubberband="0" lockedmouse="0" lockedwheel="0"/>
   </panorama>
   <panorama id="node8">
-    <input levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" width="1500" height="1500" leveltilesize="510" levelingpitch="0" overlap="1" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" predecode="0" width="1500" height="1500"/>
-      <level preload="0" predecode="0" width="750" height="750"/>
-      <level preload="1" predecode="1" width="375" height="375"/>
+    <input leveltilesize="510" height="1500" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" overlap="1" width="1500" levelbias="0.400" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1500" width="1500" preload="0" predecode="0"/>
+      <level height="750" width="750" preload="0" predecode="0"/>
+      <level height="375" width="375" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="47.02" fov="75" projection="4" tilt="-5.92"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" fovfisheye="360" fov="120" tilt="90" fovstereographic="270" scaletofit="1"/>
+    <view pannorth="0" fovmode="0">
+      <start fov="75" tilt="-5.92" projection="4" pan="47.02"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata datetime="05/12/2024 02:24 p.m." author="" copyright="" title="Patio" info="" tags="T-77 360|iNTERIOR" nodeid="node8" comment="" source="" longitude="" customnodeid="" description="" latitude="">
-      <mapcoords y="-0.384521" x="0.598755" y_floorplan_percent="23.3333" x_floorplan_percent="72.6667" mapid="FloorPlan01"/>
+    <userdata datetime="05/12/2024 02:24 p.m." author="" info="" nodeid="node8" customnodeid="" source="" longitude="" copyright="" comment="" latitude="" title="Patio" description="" tags="T-77 360|iNTERIOR">
+      <mapcoords x_floorplan_percent="72.6667" y="-0.384521" y_floorplan_percent="23.3333" mapid="FloorPlan01" x="0.598755"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textcolor="0x000000" bordercolor="0x000000" borderradius="1" backgroundcolor="0xffffff" enabled="1" border="1" width="180" height="20" background="1" backgroundalpha="1" wordwrap="1" textalpha="1" borderalpha="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
-      <hotspot id="Recamara Ppal" pan="-280.78" title="Recamara Ppal" target="" url="{node5}" skinid="ht_node" tilt="-22.81" description=""/>
-      <hotspot id="Baño Recamara Ppal" pan="-306.86" title="Baño Ppal" target="" url="{node7}" skinid="ht_node" tilt="-17.14" description=""/>
-      <hotspot id="Recamara 02" pan="-180.42" title="Recamara 02" target="" url="{node6}" skinid="ht_node" tilt="-28.35" description=""/>
-      <hotspot id="Cocina" pan="-207.48" title="Cocina" target="" url="{node2}" skinid="ht_node" tilt="-9.39" description=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundcolor="0xffffff" wordwrap="1" height="20" bordercolor="0x000000" border="1" enabled="1" background="1" borderradius="1" backgroundalpha="1" width="180" textcolor="0x000000" textalpha="1" borderalpha="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot skinid="ht_node" target="" tilt="-22.81" url="{node5}" id="Recamara Ppal" pan="-280.78" title="Recamara Ppal" description=""/>
+      <hotspot skinid="ht_node" target="" tilt="-17.14" url="{node7}" id="Baño Recamara Ppal" pan="-306.86" title="Baño Ppal" description=""/>
+      <hotspot skinid="ht_node" target="" tilt="-28.35" url="{node6}" id="Recamara 02" pan="-180.42" title="Recamara 02" description=""/>
+      <hotspot skinid="ht_node" target="" tilt="-9.39" url="{node2}" id="Cocina" pan="-207.48" title="Cocina" description=""/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" zoomin="0" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="2" zoomspeed="2" zoomout="0" blendcolor="0x000000" softedge="0"/>
+    <transition zoomin="0" zoomfov="20" zoomout="0" zoomoutpause="1" softedge="0" zoomspeed="2" enabled="1" type="crossdissolve" blendtime="2" blendcolor="0x000000"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control lockedmouse="0" lockedwheel="0" contextprojections="0" invertcontrol="1" sensitivity="8" lockedkeyboardzoom="0" lockedkeyboard="0" rubberband="0" dblclickfullscreen="0" simulatemass="1" invertwheel="0" contextfullscreen="1" hideabout="0" speedwheel="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" invertcontrol="1" sensitivity="8" lockedkeyboardzoom="0" dblclickfullscreen="0" speedwheel="1" contextprojections="0" invertwheel="0" hideabout="0" simulatemass="1" contextfullscreen="1" rubberband="0" lockedmouse="0" lockedwheel="0"/>
   </panorama>
   <masternode>
-    <userdata datetime="" author="" copyright="" title="" info="" tags="" nodeid="master" comment="" source="" longitude="" customnodeid="" description="" latitude=""/>
+    <userdata datetime="" author="" info="" nodeid="master" customnodeid="" source="" longitude="" copyright="" comment="" latitude="" title="" description="" tags=""/>
   </masternode>
-  <map id="FloorPlan01" title="" floorplannorth="0" zoomlevels="3" tileformat="png" width="300" height="600" transparent="1" type="file" bgcolor="rgba(255, 255, 255, 0)"/>
+  <map transparent="1" zoomlevels="3" height="600" bgcolor="rgba(255, 255, 255, 0)" tileformat="png" width="300" type="file" id="FloorPlan01" title="" floorplannorth="0"/>
 </tour>
